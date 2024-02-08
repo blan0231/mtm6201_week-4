@@ -41,7 +41,9 @@ img {
   }
 
   img {
-    width: 800px;
-    height: 800px;
+    display: block;
+    width:960px;
+    height: auto;
   }
+
 }
