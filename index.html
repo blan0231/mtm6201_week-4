@@ -2,10 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Picture This!</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
@@ -16,7 +16,8 @@
       </div>
       <!-- Landscape - viewport is smaller than 960px - use max-width -->
       <section>
-        <picture>
+        <picture>          
+          <img src="images/ml-2160x1215.jpg" alt="placeholder"/>
           <!-- viewport 320px -->
           <source
             srcset="
@@ -25,7 +26,7 @@
               images/ml-960x540.png 3x
             "
             media="(max-width:320px)"
-          />
+          >
           <!-- viewport 480px -->
           <source
             srcset="
@@ -34,7 +35,7 @@
               images/ml-1440x810.png 3x
             "
             media="(max-width: 480px)"
-          />
+          >
           <!-- viewport 720px -->
           <source
             srcset="
@@ -43,8 +44,9 @@
               images/ml-2160x1215.png 3x
             "
             media="(max-width: 720px)"
-          />
-          <!-- viewport 960px -->
+          >
+          <!-- viewport 960px -->          
+
           <source
             srcset="
               images/ml-960x540.png,
@@ -52,7 +54,7 @@
               images/ml-2880x1621.png 3x
             "
             media="(max-width: 960px)"
-          />
+          >
           <!-- Square - viewport is bigger than 960px - use min-width -->
           <!-- viewport 1600px -->
           <source
@@ -63,7 +65,7 @@
               images/ms-2400x2400.jpeg 3x
             "
             media="(min-width:1600px)"
-          />
+          >
           <!-- viewport 1280px -->
           <source
             class="sqaure"
@@ -73,7 +75,7 @@
               images/ms-1920x1920.jpeg 3x
             "
             media="(min-width:1280px)"
-          />
+          >
           <!-- viewport 960px -->
           <source
             class="sqaure"
@@ -83,10 +85,11 @@
               images/ms-1440x1440.jpeg 3x
             "
             media="(min-width:960px)"
-          />
-          <img src="images/museum.jpg" alt="placeholder"/>
+          >  
         </picture>
       </section>
     </header>
   </body>
+
+
 </html>
