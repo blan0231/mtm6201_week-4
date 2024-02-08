@@ -30,9 +30,10 @@ h4 {
 }
 
 img {
-  display: block;
-  width:480px;
-  height: auto;
+  display: grid;
+  float: left;
+  width: 600px;
+  height: 600px;
 }
 
 @media (min-width: 960px) {
@@ -43,7 +44,7 @@ img {
   }
 
   img {
-    width:960px;
+    width:2800px;
     height: auto;
     margin-top:800px;
     }
